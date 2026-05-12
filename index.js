@@ -1,4 +1,3 @@
-import _ from "lodash";
+import getLast from './src/index.js'
 
-console.log("hello js");
-console.log(_.last(["one", "two"]));
+console.log(getLast());
